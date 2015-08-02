@@ -14,8 +14,14 @@
             Event: 'close'
             Event: 'checkContinue'
             Event: 'connect'
+                function (request, socket, head) { }
+
             Event: 'upgrade'
+                function (request, socket, head) { }
+
             Event: 'clientError'
+                function (exception, socket) { }
+                
             server.listen(port[, hostname][, backlog][, callback])
             server.listen(path[, callback])
             server.listen(handle[, callback])
