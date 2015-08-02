@@ -1,4 +1,8 @@
 /*
+    Node.js v0.12.7 Manual & Documentation
+
+
+    
     HTTP
         http.METHODS
 
@@ -21,7 +25,7 @@
 
             Event: 'clientError'
                 function (exception, socket) { }
-                
+
             server.listen(port[, hostname][, backlog][, callback])
             server.listen(path[, callback])
             server.listen(handle[, callback])
